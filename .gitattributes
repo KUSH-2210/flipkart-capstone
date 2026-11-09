@@ -1,0 +1,7 @@
+# Preserve generator and prescribed dataset bytes on every host.
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+generate_data.py -text
+data/records.csv -text
+outputs/* -text
